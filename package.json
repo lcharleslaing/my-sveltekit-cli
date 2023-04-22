@@ -1,0 +1,35 @@
+{
+  {
+    "name": "my-sveltekit-cli",
+    "version": "1.0.0",
+    "description": "A CLI tool to initialize SvelteKit projects using a custom starter template",
+    "main": "index.js",
+    "bin": {
+      "my-sveltekit-cli": "index.js"
+    },
+    "scripts": {
+      "start": "node index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yourusername/my-sveltekit-cli.git"
+    },
+    "keywords": [
+      "sveltekit",
+      "cli",
+      "starter",
+      "template"
+    ],
+    "author": "Lee Charles Laing <lcharleslaing@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/lcharleslaing/my-sveltekit-cli/issues"
+    },
+    "homepage": "https://github.com/lcharleslaing/my-sveltekit-cli#readme",
+    "dependencies": {
+      "inquirer": "^9.1.5",
+      "open": "^9.1.0",
+      "simple-git": "^3.17.0",
+      "vscode": "^1.1.34"
+    }
+  }
